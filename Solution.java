@@ -26,7 +26,6 @@ class Solution {
     }
 
     public static int findNetworkEndpoint(int startNodeId, int[] fromIds, int[] toIds) {
-        // Write your code here
         // To debug: System.err.println("Debug messages...");
        for (Integer fromId : fromIds) {
       if (nodes.get(String.valueOf(fromId)) == null && fromId != null) {
@@ -64,7 +63,6 @@ class Solution {
     return finalNode.getNodeIndex();
   }
 
-    /* Ignore and do not change the code below */
     // #region main
     public static void main(String args[]) {
         Scanner in = new Scanner(System.in);
